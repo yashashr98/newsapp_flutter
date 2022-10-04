@@ -7,7 +7,7 @@ class NewsForCategory {
 
   Future<void> getNewsForCategory(String category) async {
     String url =
-        "http://newsapi.org/v2/top-headlines?country=in&category=$category&apiKey=957608cfc5f040cda6d44a473511a59c";
+        "http://newsapi.org/v2/top-headlines?country=in&category=$category&apiKey=urapikey";
 
     var response = await http.get(Uri.parse(url));
 
